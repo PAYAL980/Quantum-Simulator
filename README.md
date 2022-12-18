@@ -4,13 +4,14 @@ To simulate a file, provide the file path  in the variable 'file' and the initia
 
 Number of qubits can be changed in the variable 'num_qubits' which for now is set to 16.
 
-Input: 
+### Input: 
       file - path of the file containing the QASM code 
       init_state - an array containing the amplitudes for the 2^(num_qubits) states (Examples have been shown in 
                   .ipynb notebook on how to create the state)
                    
-Output:
+### Output:
        The output state after simulation in bra-ket notation
        
 The output contains the state in Dirac notation after simulation with its amplitude rounded off to 3 decimal places. 
        
+The code has been parameterized using the variable 'num_qubits' which for the current program has been set to 16. It can be changed very easily by changing the variable. It can be set according to the choice of the user.
